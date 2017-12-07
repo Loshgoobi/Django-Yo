@@ -2,16 +2,26 @@ from django.db import models
 
 
 class cards(models.Model):
-    id = models.IntegerField(max_length=20)
+
+    id = models.IntegerField(primary_key=True)
     name = models.CharField(max_length=20)
-    level = models.IntegerField(max_length=20)
-    attack = models.IntegerField(max_length=20)
-    defence = models.IntegerField(max_length=20)
+    level = models.IntegerField()
+    attack = models.IntegerField()
+    defence = models.IntegerField()
     effect = models.CharField(max_length=500)
+    used = None
     CATEGORY = (
         ('M', 'Monster'),
         ('S', 'Spell'),
         ('T', 'Trap'),
+    )
+    CARD_FACE = (
+        ('U', 'Face-Up'),
+        ('D', 'Face-Down'),
+    )
+    CARD_STATE = (
+        ('A', 'Attack'),
+        ('D', 'Defence'),
     )
     TYPE = (
         ('Wa', 'Warrior'),
@@ -50,4 +60,12 @@ class cards(models.Model):
         ('Da', 'Dark'),
         ('Di', 'Divine'),
     )
+
+class Player(models.Model):
+    id = models.IntegerField(primary_key=True)
+    login = models.CharField(max_length=30)
+    password = models.CharField(max_length=30)
+    deck = models.ManyToManyField(cards)
+
+
 # Create your models here.
