@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc886a5-d53e-41fe-b5d7-ecbd05f2de20" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/application/forms.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/Index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/Inscription.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DjangoYo/settings.py" afterPath="$PROJECT_DIR$/DjangoYo/settings.py" />
+      <change beforePath="$PROJECT_DIR$/application/models.py" afterPath="$PROJECT_DIR$/application/models.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DjangoYo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+            <state relative-caret-position="1683">
+              <caret line="99" column="6" lean-forward="false" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -37,7 +40,7 @@
       <file leaf-file-name="0001_initial.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/migrations/0001_initial.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-97">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -54,17 +57,95 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state relative-caret-position="136">
+              <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#201#207#1#HTML" expanded="true" />
+                <element signature="e#283#289#0#HTML" expanded="true" />
+                <element signature="e#403#409#1#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Inscription.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/Inscription.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#125#131#1#HTML" expanded="true" />
+                <element signature="e#311#317#0#HTML" expanded="true" />
+                <element signature="e#437#443#1#HTML" expanded="true" />
+                <element signature="e#506#512#0#HTML" expanded="true" />
+                <element signature="e#512#518#0#HTML" expanded="true" />
+                <element signature="e#518#524#0#HTML" expanded="true" />
+                <element signature="e#524#530#0#HTML" expanded="true" />
+                <element signature="e#530#536#0#HTML" expanded="true" />
+                <element signature="e#536#542#0#HTML" expanded="true" />
+                <element signature="e#542#548#0#HTML" expanded="true" />
+                <element signature="e#548#554#0#HTML" expanded="true" />
+                <element signature="e#554#560#0#HTML" expanded="true" />
+                <element signature="e#560#566#0#HTML" expanded="true" />
+                <element signature="e#566#572#0#HTML" expanded="true" />
+                <element signature="e#572#578#0#HTML" expanded="true" />
+                <element signature="e#578#584#0#HTML" expanded="true" />
+                <element signature="e#584#590#0#HTML" expanded="true" />
+                <element signature="e#590#596#0#HTML" expanded="true" />
+                <element signature="e#596#602#0#HTML" expanded="true" />
+                <element signature="e#602#608#0#HTML" expanded="true" />
+                <element signature="e#608#614#0#HTML" expanded="true" />
+                <element signature="e#614#620#0#HTML" expanded="true" />
+                <element signature="e#620#626#0#HTML" expanded="true" />
+                <element signature="e#626#632#0#HTML" expanded="true" />
+                <element signature="e#632#638#0#HTML" expanded="true" />
+                <element signature="e#638#644#0#HTML" expanded="true" />
+                <element signature="e#644#650#0#HTML" expanded="true" />
+                <element signature="e#650#656#0#HTML" expanded="true" />
+                <element signature="e#656#662#0#HTML" expanded="true" />
+                <element signature="e#662#668#0#HTML" expanded="true" />
+                <element signature="e#726#732#1#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,8 +154,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/DjangoYo/urls.py" />
-        <option value="$PROJECT_DIR$/application/models.py" />
         <option value="$PROJECT_DIR$/DjangoYo/settings.py" />
+        <option value="$PROJECT_DIR$/templates/Inscription.html" />
+        <option value="$PROJECT_DIR$/templates/Index.html" />
+        <option value="$PROJECT_DIR$/application/forms.py" />
+        <option value="$PROJECT_DIR$/application/models.py" />
       </list>
     </option>
   </component>
@@ -129,6 +213,11 @@
               <item name="DjangoYo" type="462c0819:PsiDirectoryNode" />
               <item name="DjangoYo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DjangoYo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoYo" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -139,6 +228,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Ynov/python/test" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -158,6 +248,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="DjangoYo.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -194,14 +285,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17935579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17935579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -244,27 +336,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models.py">
+    <entry file="file://$PROJECT_DIR$/DjangoYo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        <state relative-caret-position="1683">
+          <caret line="99" column="6" lean-forward="false" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-97">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoYo/settings.py">
+    <entry file="file://$PROJECT_DIR$/application/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#201#207#1#HTML" expanded="true" />
+            <element signature="e#283#289#0#HTML" expanded="true" />
+            <element signature="e#403#409#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Inscription.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#125#131#1#HTML" expanded="true" />
+            <element signature="e#311#317#0#HTML" expanded="true" />
+            <element signature="e#437#443#1#HTML" expanded="true" />
+            <element signature="e#506#512#0#HTML" expanded="true" />
+            <element signature="e#512#518#0#HTML" expanded="true" />
+            <element signature="e#518#524#0#HTML" expanded="true" />
+            <element signature="e#524#530#0#HTML" expanded="true" />
+            <element signature="e#530#536#0#HTML" expanded="true" />
+            <element signature="e#536#542#0#HTML" expanded="true" />
+            <element signature="e#542#548#0#HTML" expanded="true" />
+            <element signature="e#548#554#0#HTML" expanded="true" />
+            <element signature="e#554#560#0#HTML" expanded="true" />
+            <element signature="e#560#566#0#HTML" expanded="true" />
+            <element signature="e#566#572#0#HTML" expanded="true" />
+            <element signature="e#572#578#0#HTML" expanded="true" />
+            <element signature="e#578#584#0#HTML" expanded="true" />
+            <element signature="e#584#590#0#HTML" expanded="true" />
+            <element signature="e#590#596#0#HTML" expanded="true" />
+            <element signature="e#596#602#0#HTML" expanded="true" />
+            <element signature="e#602#608#0#HTML" expanded="true" />
+            <element signature="e#608#614#0#HTML" expanded="true" />
+            <element signature="e#614#620#0#HTML" expanded="true" />
+            <element signature="e#620#626#0#HTML" expanded="true" />
+            <element signature="e#626#632#0#HTML" expanded="true" />
+            <element signature="e#632#638#0#HTML" expanded="true" />
+            <element signature="e#638#644#0#HTML" expanded="true" />
+            <element signature="e#644#650#0#HTML" expanded="true" />
+            <element signature="e#650#656#0#HTML" expanded="true" />
+            <element signature="e#656#662#0#HTML" expanded="true" />
+            <element signature="e#662#668#0#HTML" expanded="true" />
+            <element signature="e#726#732#1#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

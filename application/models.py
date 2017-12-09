@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class cards(models.Model):
+class Cards(models.Model):
 
     id = models.IntegerField(primary_key=True)
     name = models.CharField(max_length=20)
@@ -9,7 +9,9 @@ class cards(models.Model):
     attack = models.IntegerField()
     defence = models.IntegerField()
     effect = models.CharField(max_length=500)
+    type = models.CharField(max_length=20, choices=CARD_TYPE)
     used = None
+
     CATEGORY = (
         ('M', 'Monster'),
         ('S', 'Spell'),
@@ -23,7 +25,7 @@ class cards(models.Model):
         ('A', 'Attack'),
         ('D', 'Defence'),
     )
-    TYPE = (
+    CARD_TYPE = (
         ('Wa', 'Warrior'),
         ('Sp', 'Spellcaster'),
         ('Fa', 'Fairy'),
@@ -63,9 +65,11 @@ class cards(models.Model):
 
 class Player(models.Model):
     id = models.IntegerField(primary_key=True)
-    login = models.CharField(max_length=30)
+    username = models.CharField(max_length=30)
     password = models.CharField(max_length=30)
-    deck = models.ManyToManyField(cards)
-
+    firstname = models.CharField(max_length=30)
+    lastname = models.CharField(max_length=30)
+    deck = models.ManyToManyField(Cards)
+    #hand = models.ManyToManyField(Cards)
 
 # Create your models here.
