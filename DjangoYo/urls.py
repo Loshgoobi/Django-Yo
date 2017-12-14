@@ -22,6 +22,7 @@ from django.contrib.auth.decorators import login_required
 
 urlpatterns = [
     url(r'^$', LoginView.as_view()),
+    url(r'^inscription/$', CreateNewUser.as_view(), name='inscription'),
     url(r'^logout/$', LogoutView.as_view()),
-    url(r'^djangoyo/$', login_required(TemplateView.as_view(template_name='djangoyo/index.html'))),
+    url(r'^djangoyo/$', login_required(TemplateView.as_view(template_name='djangoyo/Index.html'))),
 ]
