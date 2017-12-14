@@ -3,10 +3,10 @@ from application.models import Cards
 
 
 class ContactForm(forms.Form):
-    username = forms.CharField(max_length=30)
-    password = forms.CharField(max_length=30)
-    firstname = forms.CharField(max_length=30)
-    lastname = forms.CharField(max_length=30)
+    username = forms.CharField(label='user name', max_length=30)
+    password = forms.CharField(label='pass word', max_length=30)
+    firstname = forms.CharField(label='first name', max_length=30)
+    lastname = forms.CharField(label='last name', max_length=30)
 
     #sujet = forms.CharField(max_length=100)
     #message = forms.CharField(widget=forms.Textarea)
