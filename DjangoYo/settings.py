@@ -87,6 +87,11 @@ DATABASES = {
     }
 }
 
+LOGIN_REDIRECT_URL = '/djangoyo/'
+LOGIN_URL = '/'
+TEMPLATE_DIRS = (
+    BASE_DIR + '/templates/',
+)
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>Django-Yo</title>
+</head>
+<body background="static\img\bg.jpg">
+<h1 style="text-align: center;">Welcome to Django-Yo</h1>
+
+<form method="post"  role="form" action="/">
+{% csrf_token %}
+<input type="text" name="username" placeholder="Utilisateur">
+<input type="password" name="password" placeholder="Mot de passe">
+<input type="submit" value="login" />
+</form>
+
+<p>No account?  <a href="../Inscription.html">Sign In !</a> </p>
+</body>
+</html>

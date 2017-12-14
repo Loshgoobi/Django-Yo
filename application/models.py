@@ -9,7 +9,7 @@ class Cards(models.Model):
     attack = models.IntegerField()
     defence = models.IntegerField()
     effect = models.CharField(max_length=500)
-    type = models.CharField(max_length=20, choices=CARD_TYPE)
+    type = models.CharField(max_length=20)
     used = None
 
     CATEGORY = (
